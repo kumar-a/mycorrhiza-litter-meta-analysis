@@ -50,7 +50,7 @@ knitr::opts_chunk$set(echo = FALSE, comment = "#>",
                       warning = FALSE, message = FALSE)
 
 ## directory path to save figures
-mypath <- "C:/Users/ARVIND/Desktop/Lab_Work/Meenu_Patil/Mycorrhiza/figures"
+#mypath <- "figures"
 
 ## packages
 library(ggtree)
