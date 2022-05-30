@@ -26,25 +26,25 @@
 
 ## Description of files
 
-| File directory	               | Description |  
-|--------------------------------|-------------|  
-| data/bib/gs-md.bib             | Bibliographic records obtained from Google Scholar after searching *“mycorrhiza decomposition”* |  
-| data/bib/gs-mna.bib	           | Bibliographic records obtained from Google Scholar after searching *“mycorrhiza nutrient acquisition”* |
-| data/bib/scopus.bib	           | Bibliographic records obtained from Scopus using the search string: *(mycorrhiza\* OR ectomycorrhiza\* OR "saprotrophic fungi" OR plant-fung\*) AND (litter OR "litter decay" OR (litter AND decompos\*) OR decomposition OR "nutrient acquisition") AND (forest)* |
-| data/bib/uniqueref.ris	       | Unique records after de-duplication |
-| data/bib/wos1.bib	             | Bibliographic records (1-500) obtained from Web of Science Core Collection using the search string: *(mycorrhiza\* OR ectomycorrhiza\* OR "saprotrophic fungi" OR plant-fung\*) AND (litter OR "litter decay" OR (litter AND decompos\*) OR decomposition OR "nutrient acquisition") AND (forest)* |
-| data/bib/wos2.bib	             | Bibliographic records (501-1,000) obtained from Web of Science Core Collection using the search string: *(mycorrhiza\* OR ectomycorrhiza\* OR "saprotrophic fungi" OR plant-fung\*) AND (litter OR "litter decay" OR (litter AND decompos\*) OR decomposition OR "nutrient acquisition") AND (forest)* |
-| data/bib/wos3.bib	              | Bibliographic records (1,001-1,293) obtained from Web of Science Core Collection using the search string: *(mycorrhiza\* OR ectomycorrhiza\* OR "saprotrophic fungi" OR plant-fung\*) AND (litter OR "litter decay" OR (litter AND decompos\*) OR decomposition OR "nutrient acquisition") AND (forest)* |
-| data/Fig1.svg                   | Schematic flow diagram for literature search, screening and inclusion process |
-| data/mass_remaining.csv         | Extracted raw mass remaining data from eligible studies (See codebook for details) |
-| data/phylo.tre                  | Phylogenetic tree for plant species included in eligible studies |
-| data/raw_entry1991.csv          | Extracted raw data for litter decomposition rates from Entry et al 1991 | 
-| data/species_classification.csv | Taxonomic classification of plant species included |
-| data/study_metadata.csv         | Study characteristics such as number of experiments, duration of experiment, mycorrhizal type, forest type, etc. |
-| meta-analysis.Rmd	              | Reproducible manuscript written with `RMarkdown` which includes all the `R` codes used and initial draft of manuscript |
-| refs.bib                        | Bibliographic entries for literature cited in the manuscript |
+| File name	                                                     | Description |  
+|----------------------------------------------------------------|-------------|  
+| [gs-md.bib](/data/bib/gs-md.bib)                               | Bibliographic records obtained from Google Scholar after searching *“mycorrhiza decomposition”* |  
+| [gs-mna.bib](/data/bib/gs-mna.bib)	                       | Bibliographic records obtained from Google Scholar after searching *“mycorrhiza nutrient acquisition”* |
+| [scopus.bib](/data/bib/scopus.bib)	                       | Bibliographic records obtained from Scopus using the search string: *(mycorrhiza\* OR ectomycorrhiza\* OR "saprotrophic fungi" OR plant-fung\*) AND (litter OR "litter decay" OR (litter AND decompos\*) OR decomposition OR "nutrient acquisition") AND (forest)* |
+| [uniqueref.ris](/data/bib/uniqueref.ris)	                 | Unique records after de-duplication |
+| [wos1.bib](/data/bib/wos1.bib)	                             | Bibliographic records (1-500) obtained from Web of Science Core Collection using the search string: *(mycorrhiza\* OR ectomycorrhiza\* OR "saprotrophic fungi" OR plant-fung\*) AND (litter OR "litter decay" OR (litter AND decompos\*) OR decomposition OR "nutrient acquisition") AND (forest)* |
+| [wos2.bib](/data/bib/wos2.bib)	                             | Bibliographic records (501-1,000) obtained from Web of Science Core Collection using the search string: *(mycorrhiza\* OR ectomycorrhiza\* OR "saprotrophic fungi" OR plant-fung\*) AND (litter OR "litter decay" OR (litter AND decompos\*) OR decomposition OR "nutrient acquisition") AND (forest)* |
+| [wos3.bib](/data/bib/wos3.bib)	                             | Bibliographic records (1,001-1,293) obtained from Web of Science Core Collection using the search string: *(mycorrhiza\* OR ectomycorrhiza\* OR "saprotrophic fungi" OR plant-fung\*) AND (litter OR "litter decay" OR (litter AND decompos\*) OR decomposition OR "nutrient acquisition") AND (forest)* |
+| [Fig1.svg](/data/Fig1.svg)                                     | Schematic flow diagram for literature search, screening and inclusion process |
+| [mass_remaining.csv](/data/mass_remaining.csv)                 | Extracted raw mass remaining data from eligible studies (See codebook for details) |
+| [phylo.tre](/data/phylo.tre)                                   | Phylogenetic tree for plant species included in eligible studies |
+| [raw_entry1991.csv](/data/raw_entry1991.csv)                   | Extracted raw data for litter decomposition rates from Entry et al 1991 | 
+| [species_classification.csv](/data/species_classification.csv) | Taxonomic classification of plant species included |
+| [study_metadata.csv](/data/study_metadata.csv)                 | Study characteristics such as number of experiments, duration of experiment, mycorrhizal type, forest type, etc. |
+| [meta-analysis.Rmd](/meta-analysis.Rmd)	                       | Reproducible manuscript written with `RMarkdown` which includes all the `R` codes used and initial draft of manuscript |
+| [refs.bib](/refs.bib)                                          | Bibliographic entries for literature cited in the manuscript |
 
-## Codebook for mass_reamining.csv
+## Codebook for [mass_remaining.csv](/data/mass_remaining.csv)
 
 | Column  | Description | Units  |
 |---------|-------------|--------|
@@ -62,7 +62,7 @@
 
 <sup>**a**</sup> % of initial litter weight
 
-## Codebook for raw_entry1991.csv
+## Codebook for [raw_entry1991.csv](/data/raw_entry1991.csv)
 
 | Column  | Description | Units  |
 |---------|-------------|--------|
