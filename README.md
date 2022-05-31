@@ -1,6 +1,8 @@
 # Effects of mycorrhizal fungi on litter decomposition rate in the forest ecosystems: A meta-analysis
-**Authors:** Meenu Patil, [Abhishek Kumar](https://akumar.netlify.app/), Pardeep Kumar, Anand Narain Singh[\*](mailto:dranand1212@gmail.com)  
-**Affiliation:** *Soil Ecosystem and Restoration Ecology Lab, Department of Botany, Panjab University, Chandigarh 160014, India*
+**Authors:** [Meenu Patil](https://www.researchgate.net/profile/Meenu-Patil), [Abhishek Kumar](https://akumar.netlify.app/)<sup>#</sup>, [Pardeep Kumar](https://www.researchgate.net/profile/Pardeep-Kumar-22), [Anand Narain Singh](https://www.researchgate.net/profile/Anand-Singh-15)*  
+**Affiliation:** *Soil Ecosystem and Restoration Ecology Lab, Department of Botany, Panjab University, Chandigarh 160014, India*  
+\*Corresponding author: dranand1212@gmail.com; ansingh@pu.ac.in  
+<sup>#</sup>Maintainer: abhikumar.pu@gmail.com
 
 ## Directory structure
 ```
